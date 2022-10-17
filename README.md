@@ -1,11 +1,6 @@
 ## SpotifyUI
 
 - Sticky Header using swiftUI 
-| screenshots | screenshots | 
-| --------- | ----------|
-|  |  |
-
-
 
 | screenshots | screenshots | 
 | --------- | ----------|
