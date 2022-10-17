@@ -11,6 +11,9 @@
 		8924A5E128FDB4690068EEB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8924A5E028FDB4690068EEB2 /* ContentView.swift */; };
 		8924A5E328FDB46B0068EEB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8924A5E228FDB46B0068EEB2 /* Assets.xcassets */; };
 		8924A5E628FDB46B0068EEB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8924A5E528FDB46B0068EEB2 /* Preview Assets.xcassets */; };
+		8924A5ED28FDB4A50068EEB2 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8924A5EC28FDB4A50068EEB2 /* Album.swift */; };
+		8924A5F128FDB7410068EEB2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8924A5F028FDB7410068EEB2 /* Home.swift */; };
+		8924A5F328FDC9200068EEB2 /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8924A5F228FDC9200068EEB2 /* OffsetModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		8924A5E028FDB4690068EEB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8924A5E228FDB46B0068EEB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8924A5E528FDB46B0068EEB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8924A5EC28FDB4A50068EEB2 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		8924A5F028FDB7410068EEB2 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		8924A5F228FDC9200068EEB2 /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,8 @@
 		8924A5DD28FDB4690068EEB2 /* SpotifyUI */ = {
 			isa = PBXGroup;
 			children = (
+				8924A5EF28FDB7310068EEB2 /* View */,
+				8924A5EE28FDB4AA0068EEB2 /* Model */,
 				8924A5DE28FDB4690068EEB2 /* SpotifyUIApp.swift */,
 				8924A5E028FDB4690068EEB2 /* ContentView.swift */,
 				8924A5E228FDB46B0068EEB2 /* Assets.xcassets */,
@@ -65,6 +73,23 @@
 				8924A5E528FDB46B0068EEB2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8924A5EE28FDB4AA0068EEB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8924A5EC28FDB4A50068EEB2 /* Album.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8924A5EF28FDB7310068EEB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8924A5F028FDB7410068EEB2 /* Home.swift */,
+				8924A5F228FDC9200068EEB2 /* OffsetModifier.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +164,9 @@
 			files = (
 				8924A5E128FDB4690068EEB2 /* ContentView.swift in Sources */,
 				8924A5DF28FDB4690068EEB2 /* SpotifyUIApp.swift in Sources */,
+				8924A5F328FDC9200068EEB2 /* OffsetModifier.swift in Sources */,
+				8924A5F128FDB7410068EEB2 /* Home.swift in Sources */,
+				8924A5ED28FDB4A50068EEB2 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
